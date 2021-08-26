@@ -1,0 +1,34 @@
+
+// ** 任意目录 *任意文件
+{
+    // "include": [
+    //     "./src/**/*"
+    // ],
+    // "exclude": [
+    //     "./src/hello/*"
+    // ]
+    "compilerOptions": {
+        "target": "ES5",
+        // module
+        "module": "es2015",
+        "strict": false,
+        // ku
+        // "lib": [],
+        // 输出的目录
+        // "outDir": "./dist",
+        // // 输出的文件
+        // // "outFile": "./dist/app.js"
+        // // 是否对js文件编译
+        "allowJs": true,
+        // // 是否对js 进行类型检查
+        // "checkJs": false,
+        // "removeComments": true,
+        // // 不生成编译后文件
+        // "noEmit": false,
+        // "noEmitOnError": false,
+        // "alwaysStrict": true,
+        // // check null
+        // "strictNullChecks": false
+    },
+
+}
